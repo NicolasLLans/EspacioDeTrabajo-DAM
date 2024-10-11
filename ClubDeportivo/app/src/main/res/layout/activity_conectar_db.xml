@@ -191,7 +191,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="28dp"
-        android:backgroundTint="#6200EA"
+        android:backgroundTint="#2F1975"
         android:minWidth="48dp"
         android:textSize="20sp"
         android:minHeight="48dp"
