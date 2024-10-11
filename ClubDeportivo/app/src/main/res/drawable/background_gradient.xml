@@ -1,0 +1,14 @@
+<!-- res/drawable/background_gradient.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:angle="270"
+                android:startColor="#6B4EFF"
+                android:centerColor="#636363"
+                android:endColor="#636363"
+                android:type="linear"
+                android:centerY="0.9" />
+        </shape>
+    </item>
+</layer-list>
