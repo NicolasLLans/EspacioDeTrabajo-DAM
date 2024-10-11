@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">ClubDeportivo</string>
+    <string name="btn_connect_text">Connect</string>
+    <string name="profile_image_description">Profile Image</string>
+    <string name="title_connect_database">Conectar Base de datos</string>
+    <string name="label_server">Servidor</string>
+    <string name="hint_localhost">Localhost</string>
+    <string name="label_port">Puerto</string>
+    <string name="hint_port">3306</string>
+    <string name="label_database">Base de datos</string>
+    <string name="hint_database">CentroDeportivo</string>
+    <string name="label_username">Usuario</string>
+    <string name="hint_username">Admin</string>
+    <string name="label_password">Contraseña</string>
+    <string name="hint_password">********</string>
+
+
+
 </resources>
