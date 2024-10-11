@@ -18,7 +18,9 @@
     <string name="button_volver_formulario">Volver al formulario</string>
     <string name="button_continuar">Continuar</string>
     <string name="titulo_credenciales_invalidas">Credenciales Invalidas</string>
-    <string name="mensaje_credenciales_incorrectas">Usuario o contraseña\nson incorrectos</string>
+    <string name="titulo_error_login">Error en Iniciar Sesión</string>
+    <string name="mensaje_error_login">Usuario y/o contraseña\nson incorrectos</string>
+    <string name="mensaje_credenciales_incorrectas">Vuelva a intentarlo</string>
     <string name="titulo_conexion_exitosa">Conexión Exítosa</string>
     <string name="mensaje_continuarConexion">Para continuar preciona el botón</string>
     <string name="titulo_loginCorrecto">Inicio de sesión correcto</string>

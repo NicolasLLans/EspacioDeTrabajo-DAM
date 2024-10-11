@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/background_gradient"
-    tools:context=".ErrorCredenciales">
+    tools:context=".LoginError">
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -17,12 +17,12 @@
 
     <ImageView
         android:id="@+id/profile_image"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
+        android:layout_width="153dp"
+        android:layout_height="158dp"
         android:layout_marginTop="1dp"
         android:contentDescription="@string/profile_image_description"
         android:scaleType="centerCrop"
-        android:src="@drawable/error_conexion_db"
+        android:src="@drawable/error_credencial"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,7 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="348dp"
-        android:text="@string/titulo_credenciales_invalidas"
+        android:text="@string/titulo_error_login"
         android:fontFamily="@font/merriweather_black"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
@@ -47,7 +47,7 @@
         android:id="@+id/tv_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/mensaje_credenciales_incorrectas"
+        android:text="@string/mensaje_error_login"
         android:fontFamily="@font/montserrat_regular"
         android:textSize="16sp"
         android:textColor="#FFFFFF"
@@ -73,10 +73,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
-
-
