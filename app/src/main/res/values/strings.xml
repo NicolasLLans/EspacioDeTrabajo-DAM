@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ClinicaSeprise</string>
     <string name="una_breve_descripci_n_sobre_la_nueva_caracter_stica_de_la_app">Una breve descripción sobre la nueva característica de la app.</string>
+    <string name="profile_image">porfile_image</string>
 </resources>
