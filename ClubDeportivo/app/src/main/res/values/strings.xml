@@ -13,7 +13,11 @@
     <string name="hint_username">Admin</string>
     <string name="label_password">Contraseña</string>
     <string name="hint_password">********</string>
-
+    <string name="description_text">Este es un proyecto hecho por alumnos de la tecnicatura como proyecto de una aplicación móvil para un club deportivo. Todos los derechos reservados.</string>
+    <string name="accept_button_text">Aceptar</string>
+    <string name="button_volver_formulario">Volver al formulario</string>
+    <string name="titulo_credenciales_invalidas">Credenciales Invalidas</string>
+    <string name="mensaje_credenciales_incorrectas">Usuario o contraseña\nson incorrectos</string>
 
 
 </resources>
