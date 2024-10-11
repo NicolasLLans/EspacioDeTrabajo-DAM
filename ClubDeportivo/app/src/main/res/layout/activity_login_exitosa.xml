@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/background_gradient"
-    tools:context=".ConexionExitosa">
+    tools:context=".LoginExitosa">
 
     <View
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
         android:layout_marginTop="1dp"
         android:contentDescription="@string/profile_image_description"
         android:scaleType="centerCrop"
-        android:src="@drawable/conexion_exitosa"
+        android:src="@drawable/usuario_correcto"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,7 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="348dp"
-        android:text="@string/titulo_conexion_exitosa"
+        android:text="@string/titulo_loginCorrecto"
         android:fontFamily="@font/merriweather_black"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
@@ -73,5 +73,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

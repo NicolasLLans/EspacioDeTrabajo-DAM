@@ -21,6 +21,7 @@
     <string name="mensaje_credenciales_incorrectas">Usuario o contraseña\nson incorrectos</string>
     <string name="titulo_conexion_exitosa">Conexión Exítosa</string>
     <string name="mensaje_continuarConexion">Para continuar preciona el botón</string>
+    <string name="titulo_loginCorrecto">Inicio de sesión correcto</string>
 
 
 </resources>
