@@ -16,8 +16,11 @@
     <string name="description_text">Este es un proyecto hecho por alumnos de la tecnicatura como proyecto de una aplicación móvil para un club deportivo. Todos los derechos reservados.</string>
     <string name="accept_button_text">Aceptar</string>
     <string name="button_volver_formulario">Volver al formulario</string>
+    <string name="button_continuar">Continuar</string>
     <string name="titulo_credenciales_invalidas">Credenciales Invalidas</string>
     <string name="mensaje_credenciales_incorrectas">Usuario o contraseña\nson incorrectos</string>
+    <string name="titulo_conexion_exitosa">Conexión Exítosa</string>
+    <string name="mensaje_continuarConexion">Para continuar preciona el botón</string>
 
 
 </resources>

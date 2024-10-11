@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/background_gradient">
+    android:background="@drawable/background_gradient"
+
+    tools:context=".ConexionExitosa">
 
     <View
         android:layout_width="match_parent"
@@ -14,13 +18,13 @@
         tools:layout_editor_absoluteY="-16dp" />
 
     <ImageView
-        android:id="@+id/profile_image"
-        android:layout_width="153dp"
-        android:layout_height="158dp"
+        android:id="@+id/imagen_conexion"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginTop="1dp"
         android:contentDescription="@string/profile_image_description"
         android:scaleType="centerCrop"
-        android:src="@drawable/error_credencial"
+        android:src="@drawable/conexion_exitosa"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="348dp"
-        android:text="@string/titulo_credenciales_invalidas"
+        android:text="@string/titulo_conexion_exitosa"
         android:fontFamily="@font/merriweather_black"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
@@ -45,7 +49,7 @@
         android:id="@+id/tv_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/mensaje_credenciales_incorrectas"
+        android:text="@string/mensaje_continuarConexion"
         android:fontFamily="@font/montserrat_regular"
         android:textSize="16sp"
         android:textColor="#FFFFFF"
@@ -64,7 +68,7 @@
         android:backgroundTint="#2F1975"
         android:minWidth="48dp"
         android:minHeight="48dp"
-        android:text="@string/button_volver_formulario"
+        android:text="@string/button_continuar"
         android:textColor="@color/gris"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
