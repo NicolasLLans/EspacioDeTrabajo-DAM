@@ -10,8 +10,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient_background">
 
-    <!-- Header -->
-    <include layout="@layout/header"/>
+
     <!-- Imagen del usuario -->
 
     <!-- Título -->
@@ -118,16 +117,6 @@
         android:layout_height="wrap_content"
         app:barrierDirection="left"
         app:constraint_referenced_ids="imageViewProfile,textViewTitle,editTextPassword,buttonLogin,editTextUsername,textViewDescription" />
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_navigation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/white"
-        app:menu="@menu/bottom_navigation_menu"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
