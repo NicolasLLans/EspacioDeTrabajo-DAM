@@ -10,7 +10,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient_background">
 
-
     <!-- Imagen del usuario -->
 
     <!-- Título -->
@@ -117,7 +116,6 @@
         android:layout_height="wrap_content"
         app:barrierDirection="left"
         app:constraint_referenced_ids="imageViewProfile,textViewTitle,editTextPassword,buttonLogin,editTextUsername,textViewDescription" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
