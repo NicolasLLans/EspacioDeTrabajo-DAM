@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">ClubDeportivo</string>
+    <string name="una_breve_descripci_n_sobre_la_nueva_caracter_stica_de_la_app">Una breve descripción sobre la nueva característica de la app.</string>
+    <string name="profile_image">porfile_image</string>
     <string name="btn_connect_text">Conectar</string>
     <string name="profile_image_description">Profile Image</string>
     <string name="title_connect_database">Conectar Base de datos</string>
@@ -25,6 +27,4 @@
     <string name="mensaje_continuarConexion">Para continuar preciona el botón</string>
     <string name="titulo_loginCorrecto">Inicio de sesión correcto</string>
     <string name="button_imprimir_formulario">Imprimir Formulario\nPDF de inscripción</string>
-
-
 </resources>
