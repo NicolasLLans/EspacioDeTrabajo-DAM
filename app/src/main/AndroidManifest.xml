@@ -17,10 +17,12 @@
             android:exported="false" />
         <activity
             android:name=".ingresarEmpleado2"
+            android:name=".nuevoEmpleado1"
             android:exported="false" />
         <activity
-            android:name=".IngresarEmpleados"
+            android:name=".nuevoEmpleado2"
             android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
