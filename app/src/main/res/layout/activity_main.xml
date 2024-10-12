@@ -11,8 +11,6 @@
     android:background="@drawable/gradient_background">
 
 
-    <!-- Imagen del usuario -->
-
     <!-- Título -->
 
     <ImageView
