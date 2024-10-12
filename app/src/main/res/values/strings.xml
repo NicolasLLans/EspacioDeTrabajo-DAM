@@ -27,4 +27,6 @@
     <string name="mensaje_continuarConexion">Para continuar preciona el botón</string>
     <string name="titulo_loginCorrecto">Inicio de sesión correcto</string>
     <string name="button_imprimir_formulario">Imprimir Formulario\nPDF de inscripción</string>
+    <string name="menu">menu</string>
+    <string name="profile">profile\n</string>
 </resources>
