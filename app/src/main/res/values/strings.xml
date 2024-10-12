@@ -26,11 +26,8 @@
     <string name="titulo_loginCorrecto">Inicio de sesión correcto</string>
     <string name="button_imprimir_formulario">Imprimir Formulario\nPDF de inscripción</string>
 
-    <string name="puesto_empleado">Puesto del empleado</string>
-    <string-array name="Puesto">
-        <item>Administrador</item>
-        <item>Asistente</item>
-        <item>Tesorero</item>
-        <item>Recepción</item>
-    </string-array>
+<!--    <string name="puesto_recepcion">Recepción</string>-->
+<!--    <string name="puesto_auxiliar">Auxiliar administrativo</string>-->
+<!--    <string name="puesto_tesorero">Tesorero</string>-->
+<!--    <string name="puesto_administrador">Administrador de sistema</string>-->
 </resources>
