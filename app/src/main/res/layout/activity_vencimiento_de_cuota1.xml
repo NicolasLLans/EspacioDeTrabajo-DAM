@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".vencimientoDeCuota1">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B33D3D57"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="410dp"
+        android:layout_height="199dp"
+        android:background="#65558F"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TitlePrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vencimientos"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/SubtitlePrimary"
+        android:layout_width="329dp"
+        android:layout_height="59dp"
+        android:text="@string/this_is_a_short_explanation_about_the_new_feature_of_the_app"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <EditText
+        android:id="@+id/editTextDate2"
+        style="@style/InputPrimary"
+        android:layout_width="282dp"
+        android:layout_height="62dp"
+        android:inputType="date"
+        android:text="18/08/2024"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <EditText
+        android:id="@+id/editTextDate3"
+        style="@style/SelectPrimary"
+        android:layout_width="282dp"
+        android:layout_height="62dp"
+        android:inputType="date"
+        android:text="Opcion1"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <Button
+        style="@style/ButtonPrimary"
+        android:layout_height="wrap_content"
+        android:text="Guardar nuevo Socio"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

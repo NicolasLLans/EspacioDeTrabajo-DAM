@@ -25,6 +25,7 @@
     <string name="mensaje_continuarConexion">Para continuar preciona el botón</string>
     <string name="titulo_loginCorrecto">Inicio de sesión correcto</string>
     <string name="button_imprimir_formulario">Imprimir Formulario\nPDF de inscripción</string>
-
+    <string name="vencimientos">Vencimientos</string>
+    <string name="this_is_a_short_explanation_about_the_new_feature_of_the_app">this is a short explanation about the new feature of the app</string>
 
 </resources>
