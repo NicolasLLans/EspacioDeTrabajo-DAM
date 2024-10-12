@@ -4,4 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="purple_background">#6A1B9A</color>
     <color name="purple_button">#512DA8</color>
+    <color name="gris">#C4C4C4</color>
+    <color name="capa1">#B33D3D57</color>
 </resources>
