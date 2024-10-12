@@ -118,7 +118,6 @@
         app:barrierDirection="left"
         app:constraint_referenced_ids="imageViewProfile,textViewTitle,editTextPassword,buttonLogin,editTextUsername,textViewDescription" />
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.drawerlayout.widget.DrawerLayout>
