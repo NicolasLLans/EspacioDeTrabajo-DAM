@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.clinicaseprise"
+    namespace = "com.example.clubdeportivo"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.clinicaseprise"
+        applicationId = "com.example.clubdeportivo"
         minSdk = 31
         targetSdk = 34
         versionCode = 1

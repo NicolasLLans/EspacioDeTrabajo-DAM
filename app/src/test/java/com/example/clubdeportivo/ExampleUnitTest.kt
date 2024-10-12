@@ -1,4 +1,4 @@
-package com.example.clinicaseprise
+package com.example.clubdeportivo
 
 import org.junit.Test
 
