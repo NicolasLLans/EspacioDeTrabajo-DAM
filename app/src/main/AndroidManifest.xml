@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ClubDeportivo"
         tools:targetApi="31">
         <activity
+            android:name=".vencimientosCuota"
+            android:exported="false" />
+        <activity
             android:name=".ingresarEmpleado2"
             android:exported="false" />
         <activity
