@@ -1,0 +1,112 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".PagoExitosoActivity">
+
+    <!-- Contenedor superior con título y subtítulo -->
+    <LinearLayout
+        android:id="@+id/top_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center"
+        android:background="@color/purple_background"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="1"
+        app:layout_constraintHeight_percent="0.4"> <!-- Ajustamos el alto -->
+
+        <!-- Imagen del ícono -->
+        <ImageView
+            android:id="@+id/imageViewSuccess"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_lightbulb"
+            android:contentDescription="Pago exitoso"
+            android:layout_gravity="center" />
+
+        <!-- Título principal -->
+        <TextView
+            android:id="@+id/titlePagoExitoso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pago exitoso"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="16dp" />
+
+        <!-- Subtítulo -->
+        <TextView
+            android:id="@+id/subtitlePagoExitoso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="El socio se registró el pago de su cuota"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <!-- Contenedor de botones en el medio -->
+
+    <!-- Barra de navegación inferior -->
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
+        app:layout_constraintHeight_percent="0.35"
+        app:layout_constraintTop_toBottomOf="@id/top_container"
+        app:layout_constraintWidth_percent="0.8"
+        tools:layout_editor_absoluteX="41dp"> <!-- Ajustamos el alto -->
+
+        <Button
+            android:id="@+id/registrarNuevoPagoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/purple_button"
+            android:text="Registrar nuevo pago"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/imprimirCarnetButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/purple_button"
+            android:text="Imprimir carnet"
+            android:textColor="@android:color/white" />
+
+        <!-- Enlace para cargar un nuevo socio -->
+        <TextView
+            android:id="@+id/cargarNuevoSocioText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Cargar un nuevo socio"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:menu="@menu/bottom_navigation_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
