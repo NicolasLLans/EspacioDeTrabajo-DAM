@@ -24,6 +24,15 @@
     <string name="titulo_conexion_exitosa">Conexión Exítosa</string>
     <string name="mensaje_continuarConexion">Para continuar preciona el botón</string>
     <string name="titulo_loginCorrecto">Inicio de sesión correcto</string>
+    <string name="button_imprimir_formulario">IMPRIMIR FORMULARIO\nPDF de inscripción</string>
+    <string name="button_nuevo_socio">NUEVO SOCIO\nDar de alta</string>
+    <string name="button_consultar_vencimiento">CONSULTAR\nVencimientos</string>
+    <string name="button_nuevo_pago">NUEVO PAGO\nIngresar pago</string>
+    <string name="button_nueva_actividad">ACTIVIDADES\nAlta o Inscribir</string>
+    <string name="button_imprimir_carnet">IMPRIMIR CARNET\nPDF de carnet de socio</string>
+    <string name="button_imp_carnet">Imprimir Carnet</string>
+    <string name="menu">menu</string>
+    <string name="profile">profile\n</string>
     <string name="button_imprimir_formulario">Imprimir Formulario\nPDF de inscripción</string>
 
     <string name="puesto_empleado">Puesto del empleado</string>
