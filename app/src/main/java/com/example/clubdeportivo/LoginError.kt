@@ -1,4 +1,4 @@
-package com.example.clinicaseprise
+package com.example.clubdeportivo
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
