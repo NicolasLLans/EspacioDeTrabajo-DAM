@@ -11,7 +11,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#B33D3D57" />
+        android:background="#B37D7D9B" />
 
     <ImageView
         android:id="@+id/profile_image"
