@@ -15,7 +15,7 @@
         android:layout_marginTop="1dp"
         android:contentDescription="@string/profile_image_description"
         android:scaleType="centerCrop"
-        android:src="@drawable/ic_lightbulb"
+        android:src="@drawable/error_credencial"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="348dp"
         android:text="@string/titulo_error_login"
-        android:fontFamily="@font/merriweather_black"
+        style="@style/TitlePrimary"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
