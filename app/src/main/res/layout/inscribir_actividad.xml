@@ -70,7 +70,7 @@
         android:id="@+id/activitiesListView"
         android:layout_width="329dp"
         android:layout_height="210dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="20dp"
         android:background="@android:color/white"
         android:divider="@android:color/darker_gray"
         android:dividerHeight="1dp"
