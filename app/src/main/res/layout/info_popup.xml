@@ -68,9 +68,8 @@
             android:id="@+id/close_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:backgroundTint="@color/purple_button"
             android:text="Cerrar"
+            style="@style/ButtonPrimary"
             android:textColor="@android:color/white" />
 
     </LinearLayout>

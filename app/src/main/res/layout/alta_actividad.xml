@@ -22,9 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Actividad Guardada"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:textColor="@android:color/white"
+        style="@style/TitlePrimary"
         app:layout_constraintTop_toBottomOf="@id/imageViewIcon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,40 +34,37 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nueva Actividad registrada"
-        android:textSize="16sp"
-        android:textColor="@android:color/white"
+        style="@style/SubtitlePrimary"
         app:layout_constraintTop_toBottomOf="@id/titleText"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="8dp"/>
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <!-- Botón "Volver a Actividades" -->
     <Button
         android:id="@+id/volverButton"
-        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Volver a Actividades"
-        android:backgroundTint="@color/purple_button"
-        android:textColor="@android:color/white"
+        style="@style/ButtonPrimary"
         app:layout_constraintTop_toBottomOf="@id/subtitleText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintWidth_percent="0.8"
         android:layout_marginTop="32dp"/>
 
     <!-- Botón "Cargar nueva Actividad" -->
-    <TextView
-        android:id="@+id/cargarNuevaActividad"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cargar nueva Actividad"
-        android:textColor="@android:color/black"
-        app:layout_constraintTop_toBottomOf="@id/volverButton"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"/>
 
     <!-- Bottom Navigation -->
+    <TextView
+        android:id="@+id/cargarNuevaActividad"
+        style="@style/ButtonSecondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Cargar nueva Actividad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/volverButton" />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"

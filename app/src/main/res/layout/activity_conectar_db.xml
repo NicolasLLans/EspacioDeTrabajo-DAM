@@ -5,20 +5,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_gradient"
+    android:background="@drawable/gradient_background"
     tools:context=".conectar_DB">
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#B37D7D9B" />
 
     <ImageView
         android:id="@+id/profile_image"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:background="@drawable/circular_shape"
-        android:src="@drawable/musculo"
+        android:src="@drawable/icon_db"
         android:scaleType="centerCrop"
         android:layout_marginTop="32dp"
         android:contentDescription="@string/profile_image_description"
@@ -31,10 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/title_connect_database"
-        android:textSize="25sp"
-        android:textColor="@color/gris"
-        android:lineSpacingExtra="4sp"
-        android:fontFamily="@font/merriweather_black"
+        style="@style/TitlePrimary"
         app:layout_constraintTop_toBottomOf="@id/profile_image"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -184,16 +175,13 @@
 
     <Button
         android:id="@+id/btn_connect"
-        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="28dp"
-        android:backgroundTint="#2F1975"
         android:minWidth="48dp"
-        android:textSize="20sp"
         android:minHeight="48dp"
         android:text="@string/btn_connect_text"
-        android:textColor="@color/gris"
+        style="@style/ButtonPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edit_password" />

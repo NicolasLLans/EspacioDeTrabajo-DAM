@@ -5,19 +5,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_gradient"
+    android:background="@drawable/gradient_background"
     tools:context=".ErrorCredenciales">
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#B37D7D9B"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-16dp" />
 
     <ImageView
         android:id="@+id/profile_image"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginTop="1dp"
         android:contentDescription="@string/profile_image_description"
         android:scaleType="centerCrop"
@@ -35,9 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="348dp"
         android:text="@string/titulo_credenciales_invalidas"
-        android:fontFamily="@font/merriweather_black"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
+        style="@style/TitlePrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -47,27 +39,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/mensaje_credenciales_incorrectas"
-        android:fontFamily="@font/montserrat_regular"
-        android:textSize="16sp"
-        android:textColor="#FFFFFF"
-        android:gravity="center"
+        style="@style/SubtitlePrimary"
         app:layout_constraintTop_toBottomOf="@id/tv_title"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="8dp" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/btn_connect"
-        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:layout_marginBottom="100dp"
-        android:backgroundTint="#2F1975"
         android:minWidth="48dp"
         android:minHeight="48dp"
         android:text="@string/button_volver_formulario"
-        android:textColor="@color/gris"
-        android:textSize="20sp"
+        style="@style/ButtonPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

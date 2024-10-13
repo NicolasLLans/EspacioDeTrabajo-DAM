@@ -5,14 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_gradient"
+    android:background="@drawable/gradient_background"
     tools:context=".LoginError">
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#B37D7D9B"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-16dp" />
 
     <ImageView
         android:id="@+id/profile_image"
@@ -35,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="348dp"
         android:text="@string/titulo_error_login"
-        android:fontFamily="@font/merriweather_black"
+        style="@style/TitlePrimary"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,16 +52,13 @@
 
     <Button
         android:id="@+id/btn_connect"
-        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        style="@style/ButtonPrimary"
         android:layout_marginHorizontal="16dp"
         android:layout_marginBottom="100dp"
-        android:backgroundTint="#2F1975"
         android:minWidth="48dp"
         android:minHeight="48dp"
         android:text="@string/button_volver_formulario"
-        android:textColor="@color/gris"
-        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
