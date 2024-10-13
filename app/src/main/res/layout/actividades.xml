@@ -27,22 +27,18 @@
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
             android:text="Actividades"
-            android:textColor="@android:color/white"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            style="@style/TitlePrimary"
+            />
 
         <!-- Descripción -->
         <TextView
             android:id="@+id/subtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:gravity="center"
             android:text="This is a short explanation about the new feature of the app."
-            android:textColor="@android:color/white"
-            android:textSize="14sp" />
+            style="@style/SubtitlePrimary"
+            />
     </LinearLayout>
 
     <!-- Botón "Inscribir Socio" -->
@@ -54,16 +50,14 @@
     <!-- Bottom Navigation (parte inferior) -->
     <Button
         android:id="@+id/button_inscribir_socio"
-        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
         android:background="@drawable/rounded_button_background"
         android:backgroundTint="@color/purple_button"
         android:elevation="4dp"
-        android:text="Inscribir Socio A una Actividad"
-        android:textAlignment="viewStart"
+        android:text="INSCRIBIR SOCIO \n A una Actividad"
         android:textColor="@android:color/white"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/container_header"
@@ -77,10 +71,10 @@
         android:background="@drawable/rounded_button_background"
         android:backgroundTint="@color/purple_button"
         android:elevation="4dp"
-        android:text="Ingresar nueva Actividad Sumar actividad a la lista"
+        android:text="INGRESAR NUEVA ACTIVIDAD \n Sumar actividad a la lista"
         android:textAlignment="viewStart"
         android:textColor="@android:color/white"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_inscribir_socio"

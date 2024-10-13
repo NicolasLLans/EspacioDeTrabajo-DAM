@@ -6,24 +6,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".vencimientosCuota"
-    android:background="@drawable/background_gradient">
-
-    <View
-        android:id="@+id/view4"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#B33D3D57"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="0dp" />
+    android:background="@drawable/gradient_background">
 
     <View
         android:id="@+id/divider"
         android:layout_width="415dp"
         android:layout_height="176dp"
         android:background="#65558F"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-1dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -31,11 +23,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/vencimientos"
-        app:layout_constraintEnd_toStartOf="@+id/view4"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/view4"
-        tools:layout_editor_absoluteY="44dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="44dp" />
 
 
     <TextView
@@ -236,36 +226,28 @@
 
     <Button
         android:id="@+id/btn_imprimir_carnet"
-        android:layout_width="0dp"
+        style="@style/ButtonPrimary"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="572dp"
-        android:backgroundTint="#2F1975"
-        android:minWidth="48dp"
-        android:minHeight="48dp"
+        android:layout_marginTop="592dp"
         android:text="Siguiente"
-        android:textColor="@color/gris"
-        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_volver"
-        android:layout_width="115dp"
-        android:layout_height="47dp"
+        android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="644dp"
+        style="@style/ButtonSecondary"
         android:backgroundTint="@android:color/transparent"
         android:minWidth="48dp"
         android:minHeight="48dp"
         android:text="Volver"
-        android:textColor="@color/black"
-        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

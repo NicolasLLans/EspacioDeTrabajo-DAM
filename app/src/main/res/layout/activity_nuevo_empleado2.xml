@@ -31,9 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nuevo Empleado"
-            android:textSize="24sp"
-            android:textColor="@android:color/white"
-            android:textStyle="bold"
+            style="@style/TitlePrimary"
             tools:ignore="HardcodedText" />
 
         <!-- Subtítulo -->
@@ -42,9 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="This is a short explanation about the new feature of the app."
-            android:textSize="14sp"
-            android:textColor="@android:color/white"
-            android:layout_marginTop="8dp"
+            style="@style/SubtitlePrimary"
             tools:ignore="HardcodedText" />
     </LinearLayout>
 
@@ -144,35 +140,24 @@
 
     <Button
         android:id="@+id/buttonNext"
-        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:minHeight="48dp"
-
         android:text="Siguiente"
-        android:backgroundTint="#0000FF"
-        android:textColor="#FFFFFF"
-        android:layout_marginStart="25dp"
-        android:layout_marginEnd="20dp"
+        style="@style/ButtonPrimary"
         app:layout_constraintTop_toBottomOf="@id/editTextPasswd"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHeight_percent="0.2"
         tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/backButton"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:minHeight="48dp"
-
         android:text="Volver"
         android:backgroundTint="@android:color/transparent"
-        android:textColor="@android:color/black"
+        style="@style/ButtonSecondary"
         app:layout_constraintTop_toBottomOf="@+id/buttonNext"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="8dp"
         tools:ignore="HardcodedText" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 

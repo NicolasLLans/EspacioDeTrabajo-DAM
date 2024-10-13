@@ -19,7 +19,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="188dp"
         android:contentDescription="logo"
-        android:src="@drawable/ic_profile_image"
+        android:src="@drawable/icon_db"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,16 +43,14 @@
 
     <Button
         android:id="@+id/buttonLogin"
-        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:backgroundTint="@color/purple_button"
         android:text="Iniciar sesión"
-        android:textColor="@android:color/white"
+        style="@style/ButtonPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/editTextPassword"
-        app:layout_constraintWidth_percent="0.8" />
+         />
 
     <EditText
         android:id="@+id/editTextUsername"
@@ -71,12 +69,11 @@
 
     <TextView
         android:id="@+id/textViewDescription"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.8"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
         android:text="This is a short explanation about the new feature of the app."
-        android:textColor="@android:color/white"
-        android:textSize="14sp"
+        style="@style/SubtitlePrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="parent"
@@ -88,8 +85,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Club Deportivo"
-        android:textColor="@android:color/white"
-        android:textSize="24sp"
+        style="@style/TitlePrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageViewProfile" />

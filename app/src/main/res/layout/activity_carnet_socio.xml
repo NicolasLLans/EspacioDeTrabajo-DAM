@@ -5,15 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_gradient"
+    android:background="@drawable/gradient_background"
     tools:context=".carnetSocio">
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#B37D7D9B"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/titleContainer"
@@ -32,20 +25,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Carnet de socio"
-            android:textAlignment="center"
-            android:textSize="24sp"
-            android:textColor="@color/gris"
-            android:textStyle="bold" />
+            style="@style/TitlePrimary"
+            />
 
         <TextView
             android:id="@+id/descripcion_adicional"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:text="This is a short explanation about the \nnew feature of the app."
-            android:textAlignment="center"
-            android:textColor="@color/gris"
-            android:textSize="16sp" />
+            style="@style/SubtitlePrimary"
+            />
     </LinearLayout>
 
     <androidx.cardview.widget.CardView
@@ -166,32 +155,27 @@
 
     <Button
         android:id="@+id/btn_imprimir_carnet"
-        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="540dp"
-        android:backgroundTint="#2F1975"
         android:minWidth="48dp"
         android:minHeight="48dp"
         android:text="@string/button_imp_carnet"
-        android:textColor="@color/gris"
-        android:textSize="20sp"
+        style="@style/ButtonPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_volver"
-        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="612dp"
-        android:backgroundTint="#444746"
+        android:backgroundTint="@android:color/transparent"
         android:minWidth="48dp"
         android:minHeight="48dp"
         android:text="Volver"
-        android:textColor="@color/black"
-        android:textSize="20sp"
+        style="@style/ButtonSecondary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
